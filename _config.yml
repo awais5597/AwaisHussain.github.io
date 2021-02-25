@@ -1,9 +1,11 @@
-theme: jekyll-theme-cayman
 <!DOCTYPE html>
+theme: jekyll-theme-cayman
 <html>
-	<body> 
-		title: [Welcome to Awais Hussain Page]
-                description: [A short description of your site's purpose]
+      <body><div>
+		title: "Welcome to Awais Hussain Page"
+                description: "A short description of your site's purpose"
+		show_downloads: "false"
+  		
 		</div>
 		<h2>About Me</h2>
 			<p>A Passionate Software Engineer with almost 2 years of experience and focused in enhancing technical paths for stakeholder's business. 
