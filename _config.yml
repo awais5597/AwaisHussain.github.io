@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 <!DOCTYPE html>
 <html>
-		<body> 
+	<body> 
 		<div class="container">
 		  <img src="image.jpg" alt="chinna" width="75" height="100">
 		  <div class="topleft"></div>
