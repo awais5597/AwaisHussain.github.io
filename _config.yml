@@ -2,25 +2,8 @@ theme: jekyll-theme-cayman
 <!DOCTYPE html>
 <html>
 	<body> 
-		<div class="container">
-		  <img src="image.jpg" alt="chinna" width="75" height="100">
-		  <div class="topleft"></div>
-		</div>
-		<div id="header">
-			<h1 class="hover">Welcome to Awais Hussain Page </h1>
-			<style>	h1 {  text-align: center;}</style>
-			<!--<p style="color:blue;"> id="name">Awais Hussain | Mail:2020mt93185@wilp.bits-pilani.ac.in| Mobile:+91 9686020007 <p/>-->
-			<!--<p style="color:blue;"> Contact </p>-->
-			<h2>Contact</h2>
-			<p style="color:blue;">Name    : Awais Hussain</p>  
-			<p style="color:blue;">BITS ID : 2020mt93185@wilp.bits-pilani.ac.in</p>
-			<p style="color:blue;">Mobile  : +91 9686020007 </p> 
-			
-			<!--<a href="mailto:2020mt93185@wilp.bits-pilani.ac.in><p id="email">2020mt93185@wilp.bits-pilani.ac.in</p></a>-->
-			<!---<p>or</p>-->
-			<!--<a href="mailto:office-admin@outlook.com><p id="email">envision@extremenetwrks.com</p></a>-->
-			<!---<body style="background-color: #CCEEFF;">-->
-
+		title: [Welcome to Awais Hussain Page]
+                description: [A short description of your site's purpose]
 		</div>
 		<h2>About Me</h2>
 			<p>A Passionate Software Engineer with almost 2 years of experience and focused in enhancing technical paths for stakeholder's business. 
