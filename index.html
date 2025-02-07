@@ -1,113 +1,842 @@
 <!DOCTYPE html>
-<html>
-<title>Welcome to Awais Hussain Page</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link type="text/css" rel="stylesheet" href="style.css">
-<link type="text/css" rel='stylesheet' href="fontstyle.css">
-<!-- <link type="text/css" rel="stylesheet" href="font.css"> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="a3-light-grey">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-<!-- Page Container -->
-<div class="a3-content a3-margin-top" style="max-width:1400px;">
+<head>
 
-  <!-- The Grid -->
-  <div class="a3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="a3-third">
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Awais Hussain
+    </title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="AHS.jpeg" type="image/x-icon">
+    <link rel="icon" href="AHS.jpeg" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+       
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/me.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There</h3>
+
+                <h1>
+                    I am Awais Hussain, <br>
+                    a Software Engineer <br>
+                    developing innovative <br>
+                    digital experiences.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="#"><i class="im im-facebook" style="font-size: 35px;" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="im im-twitter" style="font-size: 35px;" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/awais.5597/"><i class="im im-instagram" style="font-size: 35px;" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/awaisshaik/"><i class="im im-linkedin" style="font-size: 35px;" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/awais5597"><i class="im im-github" style="font-size: 35px;" aria-hidden="true"></i><span>GitHub</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>A little about me.</h1>
+            </div>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <img src="images/mypic.jpg" alt="Profile Picture" style="border-radius: 50%; width: 200px; height: auto; margin-bottom: 10px;">
+                <h3>Howdy!</h3>
+
+                <p>I’m Awais Hussain Shaik, a passionate Software Engineer with a Master’s degree in Computer Science from the University of Texas at Arlington and 4 years of professional experience. I specialize in full-stack development, building robust, scalable applications that solve real-world problems and drive business growth. My focus is on writing clean, maintainable code and developing systems that are secure and high-performing.</p>
+                <p>Beyond coding, I have a strong foundation in cloud computing, DevOps, and system architecture, leveraging AWS, Azure, Docker, and Kubernetes to deploy and scale applications efficiently. I excel in building microservices, designing RESTful APIs, and implementing real-time data processing using Kafka, WebSockets, and GraphQL. With a deep understanding of databases like MongoDB, PostgreSQL, MySQL, and Redis, I ensure seamless data management and performance optimization.</p>
+                <ul class="info-list">
+                    
+                    <li>
+                        <strong>Birth Date:</strong>
+                        <span>May 5</span>
+                    </li>
+                    <li>
+                        <strong>Job:</strong>
+                        <span>Software Engineer</span>
+                    </li>
+                    <li>
+                        <strong>Website:</strong>
+                        <span>www.awaishussain.net</span>
+                    </li>
+                    <li>
+                        <strong>Email:</strong>
+                        <span>awaishussain5597@gmail.com</span>
+                    </li>
+ 
+                </ul> <!-- /info-list -->
+ 
+                
+
+                
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Java</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>React</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>Javascript</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>Node.JS</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Python</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Angular JS</strong>
+                    </li>   
+                </ul>
+            
+                <div class="col-full tab-full">
+                    <section id="additional-skills">  
+                        <h2>Additional Skills</h2>
+                        <div class="skills-list">
+                            <p><strong>Languages & Frameworks</strong> C++, C#, Spring Boot, Redux, Hibernate, MVC, RESTful APIs</p>
+                            <p><strong>Databases:</strong> MongoDB, Cassandra, Redis, Microsoft SQL Server</p>
+                            <p><strong>DevOps & Cloud:</strong> Azure (App Services), Docker, Kubernetes, Jenkins, GitHub Actions, Azure DevOps</p>
+                            <p><strong>Testing & Security:</strong> JUnit, Mockito, OAuth2, JWT, Postman</p>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="Resume.pdf" class="btn btn--primary full-width">Download My CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="#contact" class="smoothscroll btn btn--stroke full-width">Hire Me Now</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h1>My Work Experience</h1>
+                
+            </div>
+
+            <div class="col-full tab-full center">
+                <div class="timeline">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">September 2022 - December 2022</p>
+                            <h3>Infosys</h3>
+                            <h5>Software Engineer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                        <ul>
+                            <li>
+                                <strong>Enhanced Performance & User Retention:</strong> Improved page load times and boosted user retention by implementing Next.js server-side rendering (SSR) for a high-traffic e-commerce platform.
+                            </li>
+                            <li>
+                                <strong>Streamlined CI/CD & Real-Time Workflows:</strong> Optimized CI/CD pipelines using Jenkins and Docker while enabling real-time business-critical workflows through Apache Kafka and AWS Lambda.
+                            </li>
+                            <li>
+                                <strong>Built Scalable Systems:</strong> Increased application performance by 20% with React optimizations and developed a microservices architecture using Node.js and Redux for seamless scalability and data consistency.
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+            <br>
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">March 2019 - August 2022</p>
+                            <h3>HCL Technologies Ltd</h3>
+                            <h5>Software Engineer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <ul>
+                                <li>
+                                    <strong>Amplified Frontend Performance:</strong> Developed Angular 2 functions to streamline data acquisition from REST web services, improving frontend responsiveness and ensuring seamless data integration.
+                                </li>
+                                <li>
+                                    <strong>Built Scalable Web Applications:</strong> Created reusable, enterprise-grade web components with TypeScript and improved frontend workflows using Redux, enhancing user experience and maintainability.
+                                </li>
+                                <li>
+                                    <strong>Designed Secure APIs:</strong> Developed and maintained robust APIs using Java and Spring Boot, facilitating secure, seamless communication between distributed systems.
+                                </li>
+                                <li>
+                                    <strong>Optimized Infrastructure & Scalability:</strong> Orchestrated deployments on Azure App Services and Kubernetes (AKS), reducing infrastructure costs by 15% while improving application scalability.
+                                </li>
+                                <li>
+                                    <strong>Ensured High Code Quality:</strong> Built automated test suites with JUnit and Mockito, maintaining high code quality and stability, and implemented monitoring solutions using Azure Monitor to achieve 99.9% uptime.
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+         
+            <div class="col-full text-center">
+                <h1>Education</h1>
+            </div>
+            
+            <div class="col-full tab-full center">
+                <div class="timeline">
+            
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">January 2023 - December 2024</p>
+                            <h3>University of Texas at Arlington</h3>
+                            <h5>Master's Degree in Computer Science</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p> After gaining four years of hands-on industry experience, I pursued my Master's in Computer Science to deepen my technical expertise and expand my knowledge in advanced concepts. Throughout this journey, I worked on innovative projects that bridged practical experience with cutting-edge research, which you’ll find showcased below. </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+            
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">July 2014 - April 2018</p>
+                            <h3>GITAM University, Bangalore</h3>
+                            <h5>Bachelor's of Technology in Computer Science</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>This laid a strong foundation for my journey in computer science, providing me with comprehensive knowledge across a wide range of core concepts and principles within the field.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+            
+                </div> <!-- end timeline -->
+            </div> <!-- end center -->
+            
+
+        </div> <!-- end about-content timeline -->
+
+    </section> <!-- end about -->
     
-      <div class="a3-white a3-text-grey a3-card-4">
-        <div class="a3-display-container">
-          <img src="image.jpeg" style="width:100%" alt="Avatar">
-          <div class="a3-display-bottomleft a3-container a3-text-white">
-            <h2>Awais Hussain</h2>
-          </div>
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <a href="https://github.com/awais5597"><h1>See My Latest Projects.</h1>
+                </a>
+                
+                <p class="lead">Here’s a glimpse into the projects I’ve been passionate about—transforming ideas into digital solutions that are both innovative and impactful. From full-stack applications to scalable systems, these projects reflect my journey in software engineering</p>
+            </div>
         </div>
-        <div class="a3-container">
-          <p><i class="fa fa-briefcase fa-fw a3-margin-right a3-large a3-text-teal"></i>Software Engineer</p>
-          <p><i class="fa fa-home fa-fw a3-margin-right a3-large a3-text-teal"></i>Bengaluru</p>
-          <p><i class="fa fa-envelope fa-fw a3-margin-right a3-large a3-text-teal"></i>awais5597@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw a3-margin-right a3-large a3-text-teal"></i>+91 9686020007</p>
-          <hr>
 
-          <p class="a3-large"><b><i class="fa fa-asterisk fa-fw a3-margin-right a3-text-teal"></i>Tools & Technologies</b></p>
-          <ol><p> SAPR/3, Easylink</p>
-          <p>Inovis VAN</p>
-          <p>BMC-SDE(Ticket Tool)</p>
-          <p>Service Now, Electronic Data Interchange(EDI), Sterling Integration, SAP.</ol> </p>
-          <br>
+        <div class="row masonry-wrap">
+            <div class="masonry">
 
-          <p class="a3-large a3-text-theme"><b><i class="fa fa-globe fa-fw a3-margin-right a3-text-teal"></i>Languages</b></p>
-          <ol><p>English</p>
-          <p>Hindi</p>
-          <p>Telugu</ol></p>
-          <br>
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-3D.jpg" class="thumb-link" title="3D Reconstruction" data-size="2048x2048">
+                                <img src="images/portfolio/3D.jpg" 
+                                     srcset="images/portfolio/3D.jpg 1x, images/portfolio/3D.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Facial Monitoring and 3D Reconstruction
+                            </h3>
+                            <p class="item-folio__cat">
+                                Machine Learning
+                            </p>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+
+                        <a href="ttps://github.com/awais5597/SkillSwap" class="item-folio__project-link" title="Project link" target="_blank">
+                            <i class="fas fa-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Real-time facial tracking and 3D modeling powered by state-of-the-art computer vision and AI algorithms.</p>
+                            <h10> Tech Stack</h10>
+                            <p>Machine Learning,3D Rendering, Java (Spring Boot), React.js, OpenCV, TensorFlow, PostgreSQL, Docker</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-skill2.jpg" class="thumb-link" title="SkillSwap" data-size="1024x1024">
+                                <img src="images/portfolio/skill2.jpg" 
+                                     srcset="images/portfolio/skill2.jpg, images/portfolio/skill2.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                SkillSwap
+                            </h3>
+                            <p class="item-folio__cat">
+                                Full-Stack Web Development
+                            </p>
+                        </div>
+                
+                        <a href="https://github.com/awais5597/SkillSwap" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p style="margin-bottom: 5px;">SkillSwap is a decentralized platform that connects professionals to exchange skills and services seamlessly. It enables users to collaborate, learn, and trade expertise without the need for traditional currency.</p>
+                            <h10 style="display: block; margin-bottom: 3px;">Tech Stack</h10>
+                            <p style="margin-bottom: 5px;">React.js, Node.js (Express), MongoDB, WebSockets, Firebase Authentication</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-cancer.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/cancer.jpg" 
+                                     srcset="images/portfolio/cancer.jpg, images/portfolio/cancer.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Personalized Cancer Diagnosis
+                            </h3>
+                            <p class="item-folio__cat">
+                                AI-Powered Healthcare
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p style="margin-bottom: 5px;">Personalized Cancer Diagnosis is an AI-driven system designed to classify genetic mutations efficiently, reducing the need for manual review. It enhances diagnostic accuracy and accelerates decision-making in personalized medicine.</p>
+                            <h10 style="display: block; margin-bottom: 3px;">Tech Stack</h10>
+                            <p style="margin-bottom: 5px;">Machine Learning, Natural Language Processing (NLP), Python (Scikit-learn), Logistic Regression, Random Forest, Naïve Bayes.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-volunteer.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/volunteer.jpg"
+                                     srcset="images/portfolio/volunteer.jpg 1x, images/portfolio/volunteer@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Volunteer Application
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p style="margin-bottom: 5px;">The Volunteer Application Project is an intuitive online platform designed for computer science graduates to manage and engage in volunteer activities under professors while seeking employment. It offers personalized dashboards, task management, communication features, and AI-powered cheating prevention mechanisms.</p>
+                            <h10 style="display: block; margin-bottom: 3px;">Tech Stack</h10>
+                            <p style="margin-bottom: 5px;">Laravel, React.js, Node.js, WebSockets, MySQL, UTA Cloud</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-weather.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/weather.jpg"
+                                     srcset="images/portfolio/weather.jpg, images/portfolio/weather@2x.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Weather App
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p style="margin-bottom: 5px;">A sleek and modern weather application that provides real-time weather updates using the OpenWeatherMap API. It features location-based search, responsive UI, and an intuitive interface for a seamless user experience.</p>
+                            <h10 style="display: block; margin-bottom: 3px;">Tech Stack</h10>
+                            <p style="margin-bottom: 5px;">React.js, Bootstrap, OpenWeatherMap API, Node.js</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-inventory.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/inventory.jpg"
+                                     srcset="images/portfolio/inventory.jpg, images/portfolio/inventory@2x.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Inventory Management System
+                            </h3>
+                            <p class="item-folio__cat">
+                                Database Management
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p style="margin-bottom: 5px;">Developed a scalable inventory management system with real-time updates and automated notifications. Integrated PostgreSQL for data storage, Azure Monitor for performance tracking, and role-based access control for security.</p>
+                            <h10 style="display: block; margin-bottom: 3px;">Tech Stack</h10>
+                            <p style="margin-bottom: 5px;">React.js, Node.js, PostgreSQL, Azure, Docker</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-project.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/project.jpg"
+                                     srcset="images/portfolio/project.jpg, images/portfolio/project@2x.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Project Management
+                            </h3>
+                            <p class="item-folio__cat">
+                                Full Stack Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p style="margin-bottom: 5px;">Developed a scalable project management system with task tracking, real-time updates, and role-based access control for efficient team collaboration. Integrated analytics and automated notifications to enhance productivity.</p>
+                            <h10 style="display: block; margin-bottom: 3px;">Tech Stack</h10>
+                            <p style="margin-bottom: 5px;">React.js, Node.js, Express.js, MongoDB, Redux, JWT, WebSockets, Mongoose</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-food.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/food.jpg"
+                                     srcset="images/portfolio/food.jpg, images/portfolio/food@2x.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Food Delivery App
+                            </h3>
+                            <p class="item-folio__cat">
+                                App Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p style="margin-bottom: 5px;">Developed a responsive and scalable food delivery platform with real-time order tracking, restaurant listings, and secure payment integration. Implemented user authentication, personalized recommendations, and an intuitive UI for seamless customer experience.</p>
+                            <h10 style="display: block; margin-bottom: 3px;">Tech Stack</h10>
+                            <p style="margin-bottom: 5px;">Flutter, Firebase, Node.js, Express.js, MongoDB, Stripe API, Docker</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
+
+
+
+   
+    <!-- s-stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">
+                    3
+                </div>
+                <h4>Awards Received</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    1000
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    10
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    2
+                </div>
+                <h4>Happy Clients</h4> 
+            </div>
+
         </div>
-      </div><br>
+    </section> <!-- end s-stats -->
 
-    <!-- End Left Column -->
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Say Hello.</h1>
+                
+                <p class="lead">Interested in working together? Let’s connect and make it happen!</p>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form name="contactForm" id="contactForm" method="post" action="">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+                        
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>Mobile: (+1) 817 542 9579<br>
+                </p>
+
+                <h4 class="h06">Email</h4>
+                <p>awaishussain5597@gmail.com<br>
+                awaishussain.net
+                </p>
+
+                <h4 class="h06">Address</h4>
+                <p>
+                1609 S Cooper St<br>
+                Arlington, TX<br>
+                76010 US
+                </p>
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="#0">
+                        <i class="im im-facebook" style="font-size: 30px;" aria-hidden="true"></i>
+                        <span>Facebook</span>
+                    </a></li>
+                    <li><a href="#0">
+                        <i class="im im-twitter" style="font-size: 30px;" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/awais.5597/"><i class="im im-instagram" style="font-size: 30px;" aria-hidden="true"></i><span>Instagram</span></a>
+                        
+                        
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/awaisshaik/"><i class="im im-linkedin" style="font-size: 30px;" aria-hidden="true"></i><span>LinkedIn</span></a>
+                        
+                    </a></li>
+                    <li><a href="https://github.com/awais5597"><i class="im im-github" style="font-size: 30px;" aria-hidden="true"></i><span>GitHub</span></a>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Hola 2017</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
 
-    <!-- Right Column -->
-    <div class="a3-twothird">
-    
-      <div class="a3-container a3-card a3-white a3-margin-bottom">
-        <h2 class="a3-text-grey a3-padding-16"></i>Work Experience</h2>
-        <div class="a3-container">
-          <h5 class="a3-opacity"><b>HCL Technologies Limited</b></h5>
-          <h6 class="a3-text-teal"><i class="fa fa-calendar fa-fw a3-margin-right"></i>Mar 2019 - <span class="a3-tag a3-teal a3-round">Current</span></h6>
-          <p>I am currently working as an EDI Analyst with a professional knowledge of 2 years. 
-		     I am motivated and well organized with proven expertise in Technical industry. 
-			 I play the role of good team member, team leader and skilled in identifying and resolving technical issues.</p>
-          <hr>
-        </div>
-      </div>
 
-      <div class="a3-container a3-card a3-white">
-        <h2 class="a3-text-grey a3-padding-16"><i class="fa fa-certificate fa-fw a3-margin-right a3-xxlarge a3-text-teal"></i>Education</h2>
-        <div class="a3-container">
-          <h5 class="a3-opacity"><b>GITAM UNIVERSITY</b></h5>
-          <h6 class="a3-text-teal"><i class="fa fa-calendar fa-fw a3-margin-right"></i>2014-2018</h6>
-          <p>Graduated in computer science Engineering</p>
-          <hr>
-        </div>
-        <div class="a3-container">
-          <h5 class="a3-opacity"><b>Sri Chaitanya Junior College</b></h5>
-          <h6 class="a3-text-teal"><i class="fa fa-calendar fa-fw a3-margin-right"></i>2012 - 2014</h6>
-          <p>Intermediate</p>
-          <hr>
-        </div>
-        <div class="a3-container">
-          <h5 class="a3-opacity"><b>Keshava Reddy School</b></h5>
-          <h6 class="a3-text-teal"><i class="fa fa-calendar fa-fw a3-margin-right"></i>2006 - 2012</h6>
-          <p>Schooling</p><br>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
-
-<footer class="a3-container a3-teal a3-center a3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official a3-hover-opacity"></i>
-  <i class="fa fa-instagram a3-hover-opacity"></i>
-  <i class="fa fa-snapchat a3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p a3-hover-opacity"></i>
-  <i class="fa fa-twitter a3-hover-opacity"></i>
-  <i class="fa fa-linkedin a3-hover-opacity"></i>
-  <p>Powered by <a href="https://awais5597.github.io/awaisbits.github.io/" target="_blank">awais.css</a></p>
-</footer>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
